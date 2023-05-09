@@ -59,7 +59,7 @@
 
 // ======================= ZAD 3 ================================
 
-// const totalSpent = 50;
+// let totalSpent = 50;
 // let payment = 500;
 // let discount = 0;
 // if (totalSpent >= 100 && totalSpent <= 1000) {
@@ -74,7 +74,8 @@
 // } else {
 //   console.log('Not a partner!');
 // }
+// payment -= payment * discount;
+// totalSpent += payment;
 
+// console.log('Vsego potracheno:', totalSpent);
 // console.log(`Oformlyaem na summu ${payment} with discount: ${discount * 100}%`);
-
-
