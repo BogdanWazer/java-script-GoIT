@@ -73,19 +73,20 @@ let price;
 
 // ----------------- ZAD 1 ---------------------
 
-let option = 5;
-let message;
+// let option = 5;
+// let message;
 
-switch (option) {
-  case 1:
-    console.log('12:00');
-    break;
-  case 2:
-    console.log('9-12');
-    break;
-  case 3:
-    console.log('Today');
-    break;
-  default:
-    console.log('We will call you!');
-}
+// switch (option) {
+//   case 1:
+//     message = '12:00';
+//     break;
+//   case 2:
+//     message = '9:00';
+//     break;
+//   case 3:
+//     message = 'Today';
+//     break;
+//   default:
+//     message = 'We will call you!';
+// }
+// console.log(message);
