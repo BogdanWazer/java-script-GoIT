@@ -12,8 +12,6 @@ for (let i = 0; i < logins.length; i += 1) {
   }
 
   message = `User ${loginToFind} found`;
-
-  
 }
 
 console.log(message);
