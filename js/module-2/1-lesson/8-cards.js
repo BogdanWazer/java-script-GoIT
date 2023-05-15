@@ -1,10 +1,10 @@
-const cards = [
-  'Карточка-1',
-  'Карточка-2',
-  'Карточка-3',
-  'Карточка-4',
-  'Карточка-5',
-];
+// const cards = [
+//   'Карточка-1',
+//   'Карточка-2',
+//   'Карточка-3',
+//   'Карточка-4',
+//   'Карточка-5',
+// ];
 
 // console.table(cards);
 
@@ -15,11 +15,11 @@ const cards = [
 
 // cards.splice(0, 0, 5, 10, 21);
 
-console.table(cards);
+// console.table(cards);
 
-const cardToUpdate = 'Карточка-4';
-const index = cards.indexOf(cardToUpdate);
+// const cardToUpdate = 'Карточка-4';
+// const index = cards.indexOf(cardToUpdate);
 
-cards.splice(index, 1, 'Карточка-4.1');
+// cards.splice(index, 1, 'Карточка-4.1');
 
-console.log(cards);
+// console.log(cards);
