@@ -1,4 +1,4 @@
-const friends = ['Andrey', 'Sasha', 'Vova', 'Katya'];
+// const friends = ['Andrey', 'Sasha', 'Vova', 'Katya'];
 
 // let string = '';
 
@@ -6,5 +6,5 @@ const friends = ['Andrey', 'Sasha', 'Vova', 'Katya'];
 //   string += friend + ', ';
 // }
 
-const string = friends.join(', ');
-console.log(string);
+// const string = friends.join(', ');
+// console.log(string);
