@@ -1,7 +1,16 @@
-const add = function (a, b) {
-  return a + b;
-};
+// const fnA = function () {
+//   console.log('A');
 
-const result = add(5, 7);
-console.log(result);
+//   //   fnB();
+// };
+// const fnB = function () {
+//   console.lo('B');
 
+//   //   fnC();
+// };
+// const fnC = function () {
+//   console.log('C');
+// };
+// // fnA();
+
+// fnB()
