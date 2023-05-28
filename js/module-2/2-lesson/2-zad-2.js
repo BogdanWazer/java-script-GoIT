@@ -30,27 +30,27 @@
 
 // console.log(findLogin(logins, 'aezakmdi'));
 
-const logins = ['aezakmi', 'qwerty'];
+// const logins = ['aezakmi', 'qwerty'];
 
-const findLogin = function (allLogins, loginToFind) {
-  return allLogins.includes(loginToFind)
-    ? `User ${loginToFind} found!`
-    : `User ${loginToFind} not found!`;
-};
+// const findLogin = function (allLogins, loginToFind) {
+//   return allLogins.includes(loginToFind)
+//     ? `User ${loginToFind} found!`
+//     : `User ${loginToFind} not found!`;
+// };
 
-console.log(findLogin(logins, 'aezakmi'));
+// console.log(findLogin(logins, 'aezakmi'));
 
-const numbers = [5, 10, 15, 12, 22];
+// const numbers = [5, 10, 15, 12, 22];
 
-const findSmallestNumber = function (numbers) {
-  let smallestNumber = numbers[0];
+// const findSmallestNumber = function (numbers) {
+//   let smallestNumber = numbers[0];
 
-  for (let number of numbers) {
-    if (number < smallestNumber) {
-      smallestNumber = number;
-    }
-  }
-  return smallestNumber;
-};
-console.log('Smallest number:', findSmallestNumber(numbers));
+//   for (let number of numbers) {
+//     if (number < smallestNumber) {
+//       smallestNumber = number;
+//     }
+//   }
+//   return smallestNumber;
+// };
+// console.log('Smallest number:', findSmallestNumber(numbers));
 
