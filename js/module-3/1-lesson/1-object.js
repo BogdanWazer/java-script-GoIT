@@ -24,3 +24,15 @@
 // };
 
 // console.log(user);
+
+const fn = function() {
+	console.log('Hello!');
+};
+
+fn.hello = ':)';
+console.log(fn.hello);
+
+const a = [1,2,3];
+a.push(4);
+console.log(a);
+
