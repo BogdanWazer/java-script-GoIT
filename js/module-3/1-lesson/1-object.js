@@ -36,3 +36,38 @@
 // a.push(4);
 // console.log(a);
 
+// const playlist = {
+//   name: 'My playlist',
+//   rating: 5,
+//   tracks: ['track1', 'track2', 'track3'],
+
+//   changeName(newName) {
+//     console.log('This changeName', this);
+//     this.name = newName;
+//   },
+
+//   addTrack(newTrack) {
+//     this.tracks.push(newTrack);
+//     this.trackCount = this.tracks.length;
+//   },
+
+//   updateRating(newRating) {
+//     this.rating = newRating;
+//   },
+
+//   getTrackCounts() {
+//     return this.tracks.length;
+//   },
+// };
+
+// playlist.changeName('NewName');
+// console.log(playlist);
+
+// playlist.addTrack('NewTrack');
+// playlist.addTrack('NewTrack2');
+// console.log(playlist);
+
+// console.log(playlist.getTrackCounts());
+
+// playlist.updateRating(7);
+// console.log(playlist);
