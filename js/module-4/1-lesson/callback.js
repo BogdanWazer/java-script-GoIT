@@ -25,3 +25,11 @@ const sub = function (x, y) {
 };
 
 doMath(2, 3, sub);
+
+const buttonRef = document.querySelector('.js-button');
+
+const handleBtnClick = function () {
+  console.log('Click');
+};
+
+buttonRef.addEventListener('click', handleBtnClick);
