@@ -110,7 +110,7 @@ const fruits = [
   { name: 'Cherry', quantity: 100, isFresh: true },
 ];
 
-const getFruitsQuantity = function (fruitQuantityValue) {
+const getFruitsQuantity = function(fruitQuantityValue) {
   return fruitQuantityValue.quantity >= 150;
 };
 
