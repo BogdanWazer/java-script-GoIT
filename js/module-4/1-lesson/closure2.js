@@ -50,6 +50,6 @@ console.log(`Add is:`, add(5, 7, 9));
 console.log(`Add arrow 1:`, addArrow(5, 5, 6));
 console.log(`Add arrow 2:`, addArrow2(7, 5, 6));
 
-const arrowFnA = () => ({arrowA:5});
+const arrowFnA = () => ({ arrowA: 5 });
 
-console.log(arrowFnA())
+console.log(arrowFnA());

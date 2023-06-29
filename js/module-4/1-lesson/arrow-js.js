@@ -24,7 +24,15 @@ const add2 = (a,b) => {
 }
 
 //emplicit return
-
 const add3 = (a,b) => a+b;
 console.log('Add3:',add3(5,6))
+
+const addArg = (...arguments)=>{console.log(arguments)};
+addArg(5,6,8,8,9,)
+
+const showThis = () => {
+    console.log('this in showThis: ', this);
+}
+
+showThis();
 
