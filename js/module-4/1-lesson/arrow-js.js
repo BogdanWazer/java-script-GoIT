@@ -1,38 +1,44 @@
-const add = function (a,b) {
-    return a + b;
-}
+const add = function (a, b) {
+  return a + b;
+};
 
-console.log(add(5,5))
+console.log(add(5, 5));
 
-const addArr = (a,b) => a + b; // arrow function
+const addArr = (a, b) => a + b; // arrow function
 
-console.log(addArr(5,5))
+console.log(addArr(5, 5));
 
-const someEqual = message => message;
+const someEqual = (message) => message;
 
-console.log(someEqual('U r id'))
+console.log(someEqual('U r id'));
 
 const greet = () => {
-    console.log('Hello there!')
-}
-greet()
+  console.log('Hello there!');
+};
+greet();
 
 // explicit return
 
-const add2 = (a,b) => {
-    return a+b;
-}
+const add2 = (a, b) => {
+  return a + b;
+};
 
 //emplicit return
-const add3 = (a,b) => a+b;
-console.log('Add3:',add3(5,6))
+const add3 = (a, b) => a + b;
+console.log('Add3:', add3(5, 6));
 
-const addArg = (...arguments)=>{console.log(arguments)};
-addArg(5,6,8,8,9,)
+const someArrow = (...args) => {
+  console.log(args);
+};
 
-const showThis = () => {
-    console.log('this in showThis: ', this);
-}
+someArrow('Helo world!', 'SomeHello');
 
-showThis();
+const user = {
+  fullName: 'Mango',
+  showName() {
+    console.log('This: ', this);
+    console.log('this.fullName: ', this.fullName);
+  },
+};
 
+user.showName();
