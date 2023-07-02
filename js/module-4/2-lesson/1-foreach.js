@@ -74,13 +74,65 @@ const updatedPlayer2 = players.map((player) =>
 );
 console.log(updatedPlayer2);
 
-// FILTER
+const obj = {
+  a: 5,
+  b: 7,
+  c: {
+    d: 5,
+    e: 7,
+  },
+};
 
-const filteredNumbers = numbers.filter((number) => {
-  console.log(number);
+console.log(`first:`, obj);
 
-  return number < 15;
-});
-console.log(filteredNumbers);
-console.log('numbers:', filteredNumbers );
- 
+const obj2 = {
+  ...obj,
+};
+
+const obj3 = obj;
+
+obj2.a = 10;
+
+obj3.a = 150;
+
+console.log(obj2);
+console.log(obj);
+
+// Filter
+
+const numbers1 = [5, 10, 15, 20];
+
+const filteredNumbers = numbers1.filter((number) => number < 10 || number > 15);
+
+const otherfilteredNumbers = numbers1.filter((number) => number >= 10);
+console.log('other', otherfilteredNumbers);
+console.log('filtered', filteredNumbers);
+
+// Find
+
+const findNumber = numbers1.find((number) => number >= 6);
+console.log(findNumber);
+
+const findPlayer = players.find((player) => player.id == 'player');
+
+console.log(findPlayer);
+
+const total = numbers1.reduce((acc, number) => {
+  console.log('acc', acc);
+  console.log('number', number);
+
+  return acc + number;
+}, 0);
+console.log(total);
+
+const salary = {
+  mango: 100,
+  poly: 50,
+  ajax: 150,
+};
+
+const totalSalary = Object.values(salary).reduce((total, value) =>{
+  return total+value;
+})
+
+console.log(totalSalary)
