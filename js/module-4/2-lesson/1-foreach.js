@@ -131,8 +131,29 @@ const salary = {
   ajax: 150,
 };
 
-const totalSalary = Object.values(salary).reduce((total, value) =>{
-  return total+value;
-})
+const totalSalary = Object.values(salary).reduce((total, value) => {
+  return total + value;
+});
 
-console.log(totalSalary)
+console.log(totalSalary);
+
+const tweets = [
+  { id: '001', likes: 5, tags: ['js', 'nodeJs'] },
+  { id: '002', likes: 6, tags: ['js', 'nodeJs', 'html', 'react'] },
+];
+
+const allTags = tweets.reduce((tags, tweet) => [...tags, ...tweet.tags], []); // accumulator - []
+console.log('All tags:', allTags);
+
+const tagsStats = allTags.reduce((acc, tag) => {
+  console.log(acc[tag]);
+  if (acc[tag]) {
+    acc[tag] += 1;
+    return acc;
+  }
+
+  acc[tag] = 1;
+
+  return acc;
+}, {});
+console.log(tagsStats);
