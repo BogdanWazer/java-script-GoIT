@@ -146,14 +146,25 @@ const allTags = tweets.reduce((tags, tweet) => [...tags, ...tweet.tags], []); //
 console.log('All tags:', allTags);
 
 const tagsStats = allTags.reduce((acc, tag) => {
-  console.log(acc[tag]);
-  if (acc[tag]) {
-    acc[tag] += 1;
-    return acc;
-  }
+  // console.log(acc[tag]);
+  // if (acc[tag]) {
+  //   acc[tag] += 1;
+  //   return acc;
+  // }
+  // acc[tag] = 1;
+  // return acc;
 
-  acc[tag] = 1;
-
-  return acc;
+  return {
+    ...acc,
+    [tag]: acc[tag] ? acc[tag] + 1 : 1,
+  };
 }, {});
 console.log(tagsStats);
+
+const user = {
+  name: 'Mango',
+};
+
+const key = 'name';
+
+console.log(user['name']);
