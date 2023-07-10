@@ -93,9 +93,9 @@ const getUserNames = users.map((user) => {
 console.log(getUserNames);
 // [ 'Moore Hensley', 'Sharlene Bush', 'Ross Vazquez', 'Elma Head', 'Carey Barr', 'Blackburn Dotson', 'Sheree Anthony' ]
 
-const getUsersWithEyeColor = (users, color) => {
-  const rightColor = users.filter(users.eyeColor === color);
-  return rightColor;
-};
+// const getUsersWithEyeColor = (users, color) => {
+//   const rightColor = users.filter(users.eyeColor === color);
+//   return rightColor;
+// };
 
-console.log(getUsersWithEyeColor(users, 'blue')); // [объект Moore Hensley, объект Sharlene Bush, объект Carey Barr]
+// console.log(getUsersWithEyeColor(users, 'blue')); // [объект Moore Hensley, объект Sharlene Bush, объект Carey Barr]
