@@ -9,3 +9,13 @@ const options = {
 };
 
 console.log(options.name);
+
+for (let key in options) {
+  if (typeof options[key] === 'object') {
+    for (let i in options[key]) {
+      console.log(`Options ${i} has ${options[key][i]}`);
+    }
+  }
+}
+
+console.log(Object.keys(options).length);
